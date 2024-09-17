@@ -9,7 +9,7 @@ Example compose file:
 ```yaml
 services:
   qgis-server:
-    build: .
+    image: ghcr.io/siticom/docker-qgis-server-postgres
     environment:
       - PG_SERVICE_NAME=my_service_name
       - QGIS_SERVER_PROJECT_CACHE_STRATEGY=periodic
