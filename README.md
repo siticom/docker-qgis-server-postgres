@@ -19,3 +19,7 @@ services:
     ports:
      - "8083:80"
 ```
+
+A QGIS project in Postgres can be accessed with this URL:
+
+`http://localhost:8083/ows/my_schame/my_qgis_project_name/?SERVICE=WMS&REQUEST=GetCapabilities`
