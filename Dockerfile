@@ -1,4 +1,4 @@
-FROM docker.io/camptocamp/qgis-server:3.38.0
+FROM docker.io/camptocamp/qgis-server:3.42.0
 
 LABEL maintainer="Jakob Miksch <jakob.miksch@siticom.de>"
 
